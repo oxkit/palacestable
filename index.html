@@ -52,6 +52,44 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does an OEM mattress manufacturer do?",
+      "acceptedAnswer": { "@type": "Answer", "text": "We design and produce mattresses and beddings that carry your brand, not ours. You bring the brand and specifications - or just an idea - and we handle materials, production and quality control in our own facility, as we have done for businesses since 2010." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you produce custom sizes and designs?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Custom solutions are a core part of what we do - unique designs, dimensions, firmness levels and materials tailored to your specific requirements, with customizable production processes for maximum flexibility." }
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress ranges do you offer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Four main lines: Back Care mattresses (certified foam for spinal support), Luxury Hybrid mattresses (innerspring bounce with memory foam comfort), Budget mattresses built on our pure rebond foam, and fully custom solutions." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you supply hotels, Airbnb operators and other businesses?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Beyond consumer brands, we work extensively with B2B partners ranging from Airbnb providers to hoteliers, supplying mattresses that deliver customer satisfaction night after night." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your minimum order quantity and pricing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It depends on the product line and level of customization. Our pricing is transparent with no hidden costs - send us your requirements through the contact form and we will come back with a tailored quote." }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are you located?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Our production facility is in Muar, Johor, Malaysia (25, Jalan Perusahaan, Kawasan Perindustrian Parit Hulu, 84200 Muar), and our Singapore office is at 10 Anson Road #28-12, Singapore 079903." }
+    }
+  ]
+}
+</script>
 <link rel="icon" type="image/png" href="assets/img/Palace-Stable-Primary-Logo-2.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -183,6 +221,16 @@ header.scrolled{background:rgba(251,248,242,.92);backdrop-filter:blur(12px);box-
 .lightbox{position:fixed;inset:0;z-index:200;background:rgba(15,12,8,.92);display:none;align-items:center;justify-content:center;padding:4vw;cursor:zoom-out}
 .lightbox.open{display:flex}
 .lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+
+/* FAQ */
+.faq-list{margin-top:40px;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{display:flex;align-items:center;justify-content:space-between;gap:16px;cursor:pointer;list-style:none;padding:22px 4px;font-family:'Fraunces',Georgia,serif;font-size:19px;font-weight:600;transition:color .2s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--gold-deep)}
+.faq summary::after{content:"+";flex:none;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:'Manrope',sans-serif;font-size:17px;font-weight:600;color:var(--gold-deep);transition:transform .25s,background .25s}
+.faq details[open] summary::after{transform:rotate(45deg);background:var(--gold-soft)}
+.faq .answer{padding:0 44px 24px 4px;color:var(--ink-soft);font-size:15.5px;max-width:820px}
 
 /* Contact */
 .contact{background:var(--panel);border-top:1px solid var(--line)}
@@ -379,6 +427,39 @@ footer a:hover{color:var(--gold)}
     <span class="kicker">Gallery</span>
     <h2>Inside the facility</h2>
     <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<section class="section faq" id="faq" style="padding-top:0">
+  <div class="wrap">
+    <span class="kicker">FAQ</span>
+    <h2>Frequently asked questions</h2>
+    <div class="faq-list">
+      <details>
+        <summary>What does an OEM mattress manufacturer do?</summary>
+        <div class="answer">We design and produce mattresses and beddings that carry your brand, not ours. You bring the brand and specifications - or just an idea - and we handle materials, production and quality control in our own facility, as we have done for businesses since 2010.</div>
+      </details>
+      <details>
+        <summary>Can you produce custom sizes and designs?</summary>
+        <div class="answer">Yes. Custom solutions are a core part of what we do - unique designs, dimensions, firmness levels and materials tailored to your specific requirements, with customizable production processes for maximum flexibility.</div>
+      </details>
+      <details>
+        <summary>What mattress ranges do you offer?</summary>
+        <div class="answer">Four main lines: Back Care mattresses (certified foam for spinal support), Luxury Hybrid mattresses (innerspring bounce with memory foam comfort), Budget mattresses built on our pure rebond foam, and fully custom solutions.</div>
+      </details>
+      <details>
+        <summary>Do you supply hotels, Airbnb operators and other businesses?</summary>
+        <div class="answer">Yes. Beyond consumer brands, we work extensively with B2B partners ranging from Airbnb providers to hoteliers, supplying mattresses that deliver customer satisfaction night after night.</div>
+      </details>
+      <details>
+        <summary>What is your minimum order quantity and pricing?</summary>
+        <div class="answer">It depends on the product line and level of customization. Our pricing is transparent with no hidden costs - send us your requirements through the contact form and we will come back with a tailored quote.</div>
+      </details>
+      <details>
+        <summary>Where are you located?</summary>
+        <div class="answer">Our production facility is in Muar, Johor, Malaysia (25, Jalan Perusahaan, Kawasan Perindustrian Parit Hulu, 84200 Muar), and our Singapore office is at 10 Anson Road #28-12, Singapore 079903.</div>
+      </details>
+    </div>
   </div>
 </section>
 
