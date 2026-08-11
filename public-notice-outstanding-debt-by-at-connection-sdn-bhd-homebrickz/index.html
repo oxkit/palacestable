@@ -4,69 +4,129 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Public Notice: Outstanding Debt by AT Connection Sdn Bhd (Homebrickz) - Palace &amp; Stable</title>
-<meta name="description" content="A formal notice from Palace and Stable PLT regarding non-payment by AT Connection Sdn Bhd (Homebrickz).">
+<meta name="description" content="Formal public notice from Palace and Stable PLT regarding an unsatisfied court judgment against AT Connection Sdn Bhd (Homebrickz) and 183 Leisure Resort Sdn Bhd for RM 41,764.">
 <link rel="icon" type="image/png" href="../assets/img/Palace-Stable-Primary-Logo-2.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --gold:#EEAA2C;
   --gold-deep:#C98A1B;
-  --ink:#231F20;
-  --ink-soft:#5C5457;
-  --bg:#FBF8F2;
-  --panel:#FFFFFF;
-  --line:#EADFCB;
-  --alert:#8C1D18;
-  --alert-bg:#FBEDEA;
-  --alert-line:#E5C3BC;
-  --radius:18px;
+  --ink:#1B1819;
+  --ink-soft:#4E474A;
+  --bg:#EFEBE4;
+  --paper:#FFFFFF;
+  --line:#DCD3C4;
+  --red:#8C1D18;
+  --red-deep:#6E140F;
+  --red-bg:#FBEDEA;
+  --red-line:#E0B7B0;
+  --radius:16px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Manrope',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope','Noto Sans SC',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:inherit}
-.wrap{max-width:860px;margin:0 auto;padding:0 24px}
-h1,h2{font-family:'Fraunces',Georgia,serif;line-height:1.2;font-weight:600}
+.wrap{max-width:920px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:'Fraunces','Noto Serif SC',Georgia,serif;line-height:1.25;font-weight:600}
+html.zh [data-lang="en"]{display:none !important}
+html:not(.zh) [data-lang="zh"]{display:none !important}
 
-header{background:var(--ink);padding:18px 0}
-header .wrap{display:flex;align-items:center;justify-content:space-between;max-width:1160px}
-header img{height:40px}
-header a.home{color:rgba(255,255,255,.85);font-weight:700;font-size:14px;border:1.5px solid rgba(255,255,255,.35);padding:8px 18px;border-radius:999px;transition:.2s}
+/* Masthead */
+header{background:var(--ink);padding:16px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 18px rgba(0,0,0,.35)}
+header .wrap{max-width:1160px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+header img{height:38px}
+.hdr-right{display:flex;align-items:center;gap:12px}
+.lang-toggle{display:flex;border:1.5px solid rgba(255,255,255,.3);border-radius:999px;overflow:hidden}
+.lang-toggle button{background:none;border:none;color:rgba(255,255,255,.75);font:700 13px 'Manrope','Noto Sans SC',sans-serif;padding:8px 16px;cursor:pointer;transition:.2s}
+.lang-toggle button.on{background:var(--gold);color:var(--ink)}
+header a.home{color:rgba(255,255,255,.85);font-weight:700;font-size:13.5px;border:1.5px solid rgba(255,255,255,.35);padding:8px 18px;border-radius:999px;transition:.2s;white-space:nowrap}
 header a.home:hover{border-color:var(--gold);color:var(--gold)}
 
-.banner{background:var(--alert);color:#fff;padding:64px 0 56px}
-.banner .tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;background:rgba(255,255,255,.14);padding:7px 16px;border-radius:999px;margin-bottom:20px}
-.banner h1{color:#fff;font-size:clamp(26px,4.4vw,42px);max-width:760px}
-.banner p{color:rgba(255,255,255,.8);margin-top:16px;font-size:16.5px}
+/* Banner */
+.banner{background:linear-gradient(160deg,#211314 0%,#3A1210 55%,#57150F 100%);color:#fff;padding:72px 0 60px;position:relative;overflow:hidden}
+.banner::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent 0 22px,rgba(255,255,255,.022) 22px 23px)}
+.banner .wrap{position:relative}
+.tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;background:var(--red);border:1px solid rgba(255,255,255,.25);padding:8px 18px;border-radius:4px;margin-bottom:22px}
+.banner h1{color:#fff;font-size:clamp(26px,4.6vw,44px);max-width:820px}
+.banner .sub{color:rgba(255,255,255,.78);margin-top:18px;font-size:16.5px;max-width:720px}
+.case-ref{display:inline-block;margin-top:26px;font-size:13.5px;font-weight:700;letter-spacing:.06em;color:var(--gold);border:1px solid rgba(238,170,44,.45);background:rgba(238,170,44,.08);padding:10px 18px;border-radius:6px}
+.stamp{position:absolute;right:24px;top:50%;transform:translateY(-50%) rotate(-9deg);border:4px double rgba(255,90,80,.85);color:#FF5A50;font-weight:800;font-size:clamp(15px,2.2vw,24px);letter-spacing:.18em;text-transform:uppercase;padding:14px 22px;border-radius:8px;text-align:center;line-height:1.5;opacity:.9;pointer-events:none}
+@media(max-width:760px){.stamp{position:static;transform:rotate(-4deg);display:inline-block;margin-top:26px}}
 
-.section{padding:56px 0 0}
-.section:last-of-type{padding-bottom:72px}
-h2{font-size:26px;margin-bottom:16px;padding-left:16px;border-left:5px solid var(--gold)}
-.doc p{color:var(--ink-soft);font-size:16px;margin-bottom:16px}
-.doc strong{color:var(--ink)}
+/* Live status strip */
+.status{background:var(--ink);color:#fff;padding:26px 0}
+.status .wrap{max-width:1160px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:760px){.status .wrap{grid-template-columns:1fr}}
+.status .cell{border-left:3px solid var(--red);padding-left:16px}
+.status .num{display:block;font-family:'Fraunces','Noto Serif SC',serif;font-size:clamp(24px,3vw,34px);font-weight:700;color:#FF6B60;line-height:1.2}
+.status .lbl{font-size:12.5px;color:rgba(255,255,255,.6);letter-spacing:.05em;margin-top:4px;display:block}
+.status .fine{grid-column:1/-1;font-size:12px;color:rgba(255,255,255,.4);border:none;padding:0}
 
-.judgment{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px 32px;margin-top:8px}
-.judgment ol{margin:0 0 14px 22px}
-.judgment li{margin-bottom:12px;font-size:16px;color:var(--ink-soft)}
-.judgment li strong{color:var(--ink)}
-.amount{font-weight:800;color:var(--alert)}
+/* Document body */
+.doc{padding:64px 0 80px}
+.paper{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 20px 50px rgba(27,24,25,.08);padding:clamp(28px,5vw,56px)}
+.paper > section{margin-bottom:54px}
+.paper > section:last-child{margin-bottom:0}
+h2{font-size:clamp(21px,3vw,27px);margin-bottom:18px;padding-bottom:12px;border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:12px}
+h2 .no{font-size:13px;font-weight:800;letter-spacing:.14em;color:var(--red);font-family:'Manrope','Noto Sans SC',sans-serif;flex:none}
+p.body{color:var(--ink-soft);font-size:15.8px;margin-bottom:15px}
+p.body strong, .strong{color:var(--ink);font-weight:700}
+.amt{font-weight:800;color:var(--red);white-space:nowrap}
 
-.callout{background:var(--alert-bg);border:1px solid var(--alert-line);border-radius:var(--radius);padding:30px 32px}
-.callout p{color:#5A2420;font-size:16px;margin-bottom:14px}
+/* Debtor card */
+.debtor{display:grid;grid-template-columns:150px 1fr;gap:26px;background:#FBF7F0;border:1px solid var(--line);border-left:6px solid var(--red);border-radius:12px;padding:26px;align-items:center}
+@media(max-width:640px){.debtor{grid-template-columns:1fr}}
+.debtor .logo{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;align-items:center;justify-content:center}
+.debtor .logo img{max-height:64px;width:auto}
+.debtor dl{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-size:14.5px}
+.debtor dt{font-weight:800;color:var(--ink-soft);font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding-top:2px}
+.debtor dd{color:var(--ink);font-weight:600}
+.debtor .op{grid-column:1/-1;margin-top:10px;font-size:13.5px;color:var(--red-deep);background:var(--red-bg);border:1px solid var(--red-line);border-radius:8px;padding:10px 14px;font-weight:600}
+
+/* Liability table */
+table.liab{width:100%;border-collapse:collapse;font-size:15px;margin:6px 0 18px}
+.liab th{background:var(--ink);color:#fff;text-align:left;padding:12px 16px;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase}
+.liab td{padding:13px 16px;border-bottom:1px solid var(--line);color:var(--ink-soft);vertical-align:top}
+.liab td b{color:var(--ink)}
+.liab tr.total td{background:#FBF7F0;font-weight:800;color:var(--ink);border-bottom:none}
+.liab .r{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.court-note{font-size:13.5px;color:var(--ink-soft);background:#FBF7F0;border:1px dashed var(--line);border-radius:10px;padding:14px 18px}
+
+/* Timeline */
+.timeline{list-style:none;position:relative;margin-top:8px;padding-left:26px}
+.timeline::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding:0 0 22px 20px}
+.timeline li::before{content:"";position:absolute;left:-25px;top:7px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid var(--ink)}
+.timeline li.red::before{border-color:var(--red);background:var(--red-bg)}
+.timeline .when{font-size:12.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.timeline .what{font-size:15.5px;font-weight:600;color:var(--ink);margin-top:2px}
+.timeline li.red .when{color:var(--red)}
+
+/* Callout */
+.callout{background:var(--red-bg);border:1px solid var(--red-line);border-left:6px solid var(--red);border-radius:12px;padding:26px 30px}
+.callout p{color:#5A2420;font-size:15.8px;margin-bottom:14px}
 .callout p:last-child{margin-bottom:0}
-.callout a{color:var(--alert);font-weight:800;text-decoration:underline}
+.callout strong{color:var(--red-deep)}
+.callout a{color:var(--red-deep);font-weight:800;text-decoration:underline}
 
-.attachments{list-style:none;margin-top:8px;display:grid;gap:12px}
-.attachments a{display:flex;align-items:center;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 22px;font-weight:700;font-size:15.5px;transition:transform .2s,box-shadow .2s}
-.attachments a:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(35,31,32,.1);border-color:var(--gold)}
-.attachments .pdf-ic{flex:none;width:38px;height:38px;border-radius:10px;background:var(--gold);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:var(--ink);letter-spacing:.04em}
-.attachments small{display:block;font-weight:500;color:var(--ink-soft);font-size:13px}
+/* Attachments */
+.attachments{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.attachments{grid-template-columns:1fr}}
+.attachments a{display:flex;align-items:center;gap:15px;background:#FBF7F0;border:1px solid var(--line);border-radius:12px;padding:17px 20px;font-weight:700;font-size:15px;transition:transform .2s,box-shadow .2s}
+.attachments a:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(27,24,25,.12);border-color:var(--red)}
+.attachments .pdf-ic{flex:none;width:38px;height:38px;border-radius:9px;background:var(--red);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;letter-spacing:.04em}
+.attachments small{display:block;font-weight:500;color:var(--ink-soft);font-size:12.5px}
 
+/* Basis note */
+.basis{margin-top:44px;padding-top:22px;border-top:1px solid var(--line);font-size:12.8px;color:#8A8078;line-height:1.7}
+
+/* Footer */
 footer{background:var(--ink);color:rgba(255,255,255,.6);padding:40px 0;font-size:13.5px}
-footer .wrap{max-width:1160px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
-footer img{height:36px;opacity:.9}
+footer .wrap{max-width:1160px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+footer img{height:34px;opacity:.9}
 footer a:hover{color:var(--gold)}
 </style>
 </head>
@@ -75,68 +135,188 @@ footer a:hover{color:var(--gold)}
 <header>
   <div class="wrap">
     <a href="../" aria-label="Palace and Stable home"><img src="../assets/img/Palace-Stable-Primary-Logo-23.png" alt="Palace and Stable"></a>
-    <a class="home" href="../">Back to Home</a>
+    <div class="hdr-right">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button id="btnEn" class="on" type="button">EN</button>
+        <button id="btnZh" type="button">中文</button>
+      </div>
+      <a class="home" href="../" data-lang="en">Back to Home</a>
+      <a class="home" href="../" data-lang="zh">返回首页</a>
+    </div>
   </div>
 </header>
 
 <div class="banner">
   <div class="wrap">
-    <span class="tag">Public Notice</span>
-    <h1>Outstanding Debt by AT Connection Sdn Bhd (Homebrickz)</h1>
-    <p>A formal notice from Palace and Stable PLT regarding non-payment by AT Connection Sdn Bhd</p>
+    <span class="tag" data-lang="en">Public Notice</span>
+    <span class="tag" data-lang="zh">公开公告</span>
+    <h1 data-lang="en">Outstanding Debt by AT Connection Sdn Bhd (Homebrickz)</h1>
+    <h1 data-lang="zh">AT CONNECTION SDN BHD（HOMEBRICKZ）拖欠债务公告</h1>
+    <p class="sub" data-lang="en">A formal notice from Palace and Stable PLT regarding non-payment by AT Connection Sdn Bhd, and an unsatisfied judgment of the Magistrate's Court of Kuala Lumpur.</p>
+    <p class="sub" data-lang="zh">Palace and Stable PLT 就 AT Connection Sdn Bhd 拖欠款项，以及吉隆坡推事庭已作出但至今未获履行的判决，发出正式公告。</p>
+    <span class="case-ref">Civil Suit No. WA-A72NCC-40521-09/2024 &middot; Magistrate's Court, Kuala Lumpur</span>
+    <div class="stamp">
+      <span data-lang="en">Judgment<br>Unsatisfied</span>
+      <span data-lang="zh">判决未获履行</span>
+    </div>
+  </div>
+</div>
+
+<div class="status">
+  <div class="wrap">
+    <div class="cell">
+      <span class="num" id="daysSince">-</span>
+      <span class="lbl" data-lang="en">days since judgment - debt still unpaid</span>
+      <span class="lbl" data-lang="zh">自判决之日起的天数 - 债务仍未清偿</span>
+    </div>
+    <div class="cell">
+      <span class="num">RM 41,764</span>
+      <span class="lbl" data-lang="en">principal sum adjudged, plus costs of RM 2,500</span>
+      <span class="lbl" data-lang="zh">判决本金，另加 RM 2,500 诉讼费用</span>
+    </div>
+    <div class="cell">
+      <span class="num" id="interestEst">-</span>
+      <span class="lbl" data-lang="en">estimated interest accrued since judgment (5% p.a.)</span>
+      <span class="lbl" data-lang="zh">自判决之日起的估算利息（年利率 5%）</span>
+    </div>
+    <p class="fine" data-lang="en">Interest figure is illustrative, computed at 5% per annum on RM 41,764 from April 15, 2025. Under the court order, interest actually runs from the dates the debts were incurred, so the true figure is higher.</p>
+    <p class="fine" data-lang="zh">利息数字仅供说明，按 RM 41,764 自 2025 年 4 月 15 日起以年利率 5% 计算。根据庭令，利息实际自债务发生之日起计算，因此真实金额更高。</p>
   </div>
 </div>
 
 <div class="doc">
+  <div class="wrap">
+    <div class="paper">
 
-  <section class="section">
-    <div class="wrap">
-      <h2>Background</h2>
-      <p><strong>AT Connection Sdn Bhd</strong>, operating under the name <strong>Homebrickz</strong>, is a short-term rental operator in Malaysia, primarily managing Airbnb and Booking.com properties. The company is owned by <strong>Tan Tee Kung</strong> (also known as <strong>Addison Tan</strong>). Palace and Stable PLT supplied mattresses to AT Connection Sdn Bhd, and initially, payments were made promptly. However, since <strong>November 2023</strong>, AT Connection Sdn Bhd has consistently delayed payments, citing partnership issues as an excuse. Despite occasional small payments following reminders, the company has failed to settle the outstanding amount.</p>
-      <p>Notably, <strong>Addison Tan Tee Kung</strong>, acting on behalf of <strong>183 Leisure Resort Sdn Bhd</strong> as a minor shareholder, placed orders to be billed under 183 Leisure Resort Sdn Bhd in an apparent attempt to avoid responsibility for the debts incurred.</p>
-      <p>As of the date of this notice, AT Connection Sdn Bhd and 183 Leisure Resort Sdn Bhd collectively owe Palace and Stable PLT a total of <span class="amount">RM 41,764</span> for goods supplied.</p>
+      <section>
+        <h2><span class="no">01</span><span data-lang="en">The Debtor</span><span data-lang="zh">债务人资料</span></h2>
+        <div class="debtor">
+          <div class="logo"><img src="../assets/img/homebrickz-logo.jpg" alt="Homebrickz logo" loading="lazy"></div>
+          <dl>
+            <dt data-lang="en">Company</dt><dd data-lang="en">AT Connection Sdn Bhd, trading as Homebrickz</dd>
+            <dt data-lang="zh">公司</dt><dd data-lang="zh">AT Connection Sdn Bhd，以 Homebrickz 名义经营</dd>
+            <dt data-lang="en">Owner</dt><dd data-lang="en">Tan Tee Kung (also known as Addison Tan)</dd>
+            <dt data-lang="zh">所有人</dt><dd data-lang="zh">Tan Tee Kung（亦称 Addison Tan）</dd>
+            <dt data-lang="en">Business</dt><dd data-lang="en">Short-term rental operator (Airbnb / Booking.com), Malaysia</dd>
+            <dt data-lang="zh">业务</dt><dd data-lang="zh">马来西亚短租运营商（Airbnb / Booking.com）</dd>
+            <dt data-lang="en">Related entity</dt><dd data-lang="en">183 Leisure Resort Sdn Bhd (jointly liable)</dd>
+            <dt data-lang="zh">关联公司</dt><dd data-lang="zh">183 Leisure Resort Sdn Bhd（承担连带责任）</dd>
+            <dd class="op" data-lang="en">Despite the court judgment, the debtor continues to trade publicly under the Homebrickz brand at homebrickz.com, advertising hundreds of managed rental properties - while the debt to Palace and Stable PLT remains unpaid.</dd>
+            <dd class="op" data-lang="zh">尽管法院已作出判决，债务人仍以 Homebrickz 品牌（homebrickz.com）公开经营，宣称管理数百个租赁物业，而拖欠 Palace and Stable PLT 的债务至今未清偿。</dd>
+          </dl>
+        </div>
+      </section>
+
+      <section>
+        <h2><span class="no">02</span><span data-lang="en">Background</span><span data-lang="zh">背景</span></h2>
+        <p class="body" data-lang="en"><strong>AT Connection Sdn Bhd</strong>, operating under the name <strong>Homebrickz</strong>, is a short-term rental operator in Malaysia, primarily managing Airbnb and Booking.com properties. The company is owned by <strong>Tan Tee Kung</strong> (also known as <strong>Addison Tan</strong>). Palace and Stable PLT supplied mattresses to AT Connection Sdn Bhd, and initially, payments were made promptly. However, since <strong>November 2023</strong>, AT Connection Sdn Bhd has consistently delayed payments, citing partnership issues as an excuse. Despite occasional small payments following reminders, the company has failed to settle the outstanding amount.</p>
+        <p class="body" data-lang="zh"><strong>AT Connection Sdn Bhd</strong>（以 <strong>Homebrickz</strong> 名义经营）是马来西亚一家短租运营商，主要管理 Airbnb 及 Booking.com 房源。该公司所有人为 <strong>Tan Tee Kung</strong>（亦称 <strong>Addison Tan</strong>）。Palace and Stable PLT 曾向 AT Connection Sdn Bhd 供应床垫，初期对方均能及时付款。然而，自 <strong>2023 年 11 月</strong>起，AT Connection Sdn Bhd 以合伙问题为借口持续拖延付款。尽管经多次提醒后偶有零星小额付款，该公司始终未结清欠款。</p>
+        <p class="body" data-lang="en">Notably, <strong>Addison Tan Tee Kung</strong>, acting on behalf of <strong>183 Leisure Resort Sdn Bhd</strong> as a minor shareholder, placed orders to be billed under 183 Leisure Resort Sdn Bhd in an apparent attempt to avoid responsibility for the debts incurred.</p>
+        <p class="body" data-lang="zh">值得注意的是，<strong>Addison Tan Tee Kung</strong> 作为 <strong>183 Leisure Resort Sdn Bhd</strong> 的小股东，以该公司名义下单并要求将账单开至 183 Leisure Resort Sdn Bhd 名下，明显企图逃避其债务责任。</p>
+        <p class="body" data-lang="en">As of the date of this notice, AT Connection Sdn Bhd and 183 Leisure Resort Sdn Bhd collectively owe Palace and Stable PLT a total of <span class="amt">RM 41,764</span> for goods supplied.</p>
+        <p class="body" data-lang="zh">截至本公告发布之日，AT Connection Sdn Bhd 与 183 Leisure Resort Sdn Bhd 就所供货物合计拖欠 Palace and Stable PLT 共计 <span class="amt">RM 41,764</span>。</p>
+      </section>
+
+      <section>
+        <h2><span class="no">03</span><span data-lang="en">Court Judgment</span><span data-lang="zh">法院判决</span></h2>
+        <p class="body" data-lang="en">On <strong>April 15, 2025</strong>, the Magistrate's Court in Kuala Lumpur issued a summary judgment (Civil Suit No. <strong>WA-A72NCC-40521-09/2024</strong>) in favor of Palace and Stable PLT against AT Connection Sdn Bhd and 183 Leisure Resort Sdn Bhd. The court ordered the following:</p>
+        <p class="body" data-lang="zh"><strong>2025 年 4 月 15 日</strong>，吉隆坡推事庭作出简易判决（民事诉讼案号：<strong>WA-A72NCC-40521-09/2024</strong>），判 Palace and Stable PLT 胜诉，AT Connection Sdn Bhd 及 183 Leisure Resort Sdn Bhd 败诉。庭令如下：</p>
+        <table class="liab">
+          <thead>
+            <tr>
+              <th data-lang="en">Party</th><th data-lang="en">Liability</th><th class="r" data-lang="en">Amount</th>
+              <th data-lang="zh">当事方</th><th data-lang="zh">责任</th><th class="r" data-lang="zh">金额</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>AT Connection Sdn Bhd</b> + <b>183 Leisure Resort Sdn Bhd</b></td>
+              <td data-lang="en">Jointly liable</td><td data-lang="zh">连带共同承担</td>
+              <td class="r amt">RM 6,264</td>
+            </tr>
+            <tr>
+              <td><b>AT Connection Sdn Bhd</b></td>
+              <td data-lang="en">Solely liable</td><td data-lang="zh">单独承担</td>
+              <td class="r amt">RM 35,500</td>
+            </tr>
+            <tr>
+              <td data-lang="en"><b>Interest</b></td><td data-lang="zh"><b>利息</b></td>
+              <td data-lang="en">5% per annum on RM 6,264 and RM 35,500, per Section 11 of the Civil Law Act 1956, from the dates the debts were incurred</td>
+              <td data-lang="zh">根据 1956 年民事法第 11 条，RM 6,264 及 RM 35,500 自债务发生之日起按年利率 5% 计息</td>
+              <td class="r" data-lang="en">accruing</td><td class="r" data-lang="zh">持续累计</td>
+            </tr>
+            <tr>
+              <td data-lang="en"><b>Costs</b></td><td data-lang="zh"><b>诉讼费用</b></td>
+              <td data-lang="en">Payable by the defendants</td><td data-lang="zh">由被告承担</td>
+              <td class="r amt">RM 2,500</td>
+            </tr>
+            <tr class="total">
+              <td data-lang="en">Total principal adjudged</td><td data-lang="zh">判决本金合计</td>
+              <td data-lang="en">Plus interest and costs</td><td data-lang="zh">另加利息及诉讼费</td>
+              <td class="r amt">RM 41,764</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="court-note" data-lang="en">The judgment was issued by Magistrate Muhamad Taufik bin Saberi through the e-Review platform, following an application filed on November 10, 2024. The defendants have not complied with the order.</p>
+        <p class="court-note" data-lang="zh">该判决由推事 Muhamad Taufik bin Saberi 通过 e-Review 平台作出，相关申请于 2024 年 11 月 10 日提交。被告至今未遵守该庭令。</p>
+      </section>
+
+      <section>
+        <h2><span class="no">04</span><span data-lang="en">Timeline</span><span data-lang="zh">事件经过</span></h2>
+        <ul class="timeline">
+          <li>
+            <div class="when" data-lang="en">2023</div><div class="when" data-lang="zh">2023 年</div>
+            <div class="what" data-lang="en">Mattresses supplied to AT Connection Sdn Bhd (Homebrickz); initial payments made promptly</div>
+            <div class="what" data-lang="zh">向 AT Connection Sdn Bhd（Homebrickz）供应床垫，初期付款及时</div>
+          </li>
+          <li>
+            <div class="when" data-lang="en">November 2023</div><div class="when" data-lang="zh">2023 年 11 月</div>
+            <div class="what" data-lang="en">Payments begin to be delayed; excuses citing partnership issues</div>
+            <div class="what" data-lang="zh">开始拖延付款，并以合伙问题为借口</div>
+          </li>
+          <li>
+            <div class="when" data-lang="en">November 10, 2024</div><div class="when" data-lang="zh">2024 年 11 月 10 日</div>
+            <div class="what" data-lang="en">Application for summary judgment filed</div>
+            <div class="what" data-lang="zh">提交简易判决申请</div>
+          </li>
+          <li>
+            <div class="when" data-lang="en">April 15, 2025</div><div class="when" data-lang="zh">2025 年 4 月 15 日</div>
+            <div class="what" data-lang="en">Summary judgment granted by the Magistrate's Court, Kuala Lumpur</div>
+            <div class="what" data-lang="zh">吉隆坡推事庭作出简易判决</div>
+          </li>
+          <li class="red">
+            <div class="when" data-lang="en">Today</div><div class="when" data-lang="zh">至今</div>
+            <div class="what"><span data-lang="en">Judgment remains unsatisfied - </span><span data-lang="zh">判决至今未获履行 - </span><span id="daysInline">-</span> <span data-lang="en">days and counting</span><span data-lang="zh">天，且仍在增加</span></div>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span class="no">05</span><span data-lang="en">Call to Action &amp; Caution</span><span data-lang="zh">敦促与警示</span></h2>
+        <div class="callout">
+          <p data-lang="en">Palace and Stable PLT urges AT Connection Sdn Bhd and its owner, Addison Tan Tee Kung, to settle the outstanding debt of <strong>RM 41,764</strong> with interest and legal costs immediately to avoid further legal action.</p>
+          <p data-lang="zh">Palace and Stable PLT 敦促 AT Connection Sdn Bhd 及其所有人 Addison Tan Tee Kung 立即清偿 <strong>RM 41,764</strong> 欠款连同利息及诉讼费用，以避免进一步的法律行动。</p>
+          <p data-lang="en">We also caution other businesses to exercise due diligence when dealing with AT Connection Sdn Bhd or Homebrickz due to their history of delayed payments, non-compliance with court orders, and attempts to evade responsibility through actions such as billing under 183 Leisure Resort Sdn Bhd.</p>
+          <p data-lang="zh">我们亦提醒各商家，在与 AT Connection Sdn Bhd 或 Homebrickz 往来时务必审慎尽职调查，因其存在拖延付款、拒不遵守庭令，以及试图通过将账单开至 183 Leisure Resort Sdn Bhd 名下等方式逃避责任的记录。</p>
+          <p data-lang="en">For inquiries or further information, please contact Palace and Stable PLT through our legal representative, Raqib Osman, at <a href="mailto:lawyer@raqibosman.com.my">lawyer@raqibosman.com.my</a>.</p>
+          <p data-lang="zh">如需查询或了解更多信息，请通过我方法律代表 Raqib Osman 联系 Palace and Stable PLT：<a href="mailto:lawyer@raqibosman.com.my">lawyer@raqibosman.com.my</a>。</p>
+        </div>
+      </section>
+
+      <section>
+        <h2><span class="no">06</span><span data-lang="en">Court Documents</span><span data-lang="zh">法院文件</span></h2>
+        <ul class="attachments">
+          <li><a href="../assets/files/AT-Connection-SOC.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span><span data-lang="en">Statement of Claim</span><span data-lang="zh">索赔陈述书</span><small>AT-Connection-SOC.pdf</small></span></a></li>
+          <li><a href="../assets/files/AT-Connection-AIS.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span><span data-lang="en">Affidavit in Support</span><span data-lang="zh">支持宣誓书</span><small>AT-Connection-AIS.pdf</small></span></a></li>
+          <li><a href="../assets/files/AT-Connection-Writ.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span><span data-lang="en">Writ</span><span data-lang="zh">传讯令状</span><small>AT-Connection-Writ.pdf</small></span></a></li>
+          <li><a href="../assets/files/AT-Connection-Summary-Judgement.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span><span data-lang="en">Summary Judgement</span><span data-lang="zh">简易判决书</span><small>AT-Connection-Summary-Judgement.pdf</small></span></a></li>
+        </ul>
+        <p class="basis" data-lang="en">This notice is published by Palace and Stable PLT (now Palace and Stable (M) Sdn Bhd, 202401036132) for information purposes. The facts stated are supported by the court documents listed above, issued in Civil Suit No. WA-A72NCC-40521-09/2024 before the Magistrate's Court of Kuala Lumpur.</p>
+        <p class="basis" data-lang="zh">本公告由 Palace and Stable PLT（现为 Palace and Stable (M) Sdn Bhd，注册号 202401036132）发布，仅供信息参考。上述事实均有上述法院文件支持，相关文件由吉隆坡推事庭在民事诉讼案号 WA-A72NCC-40521-09/2024 中出具。</p>
+      </section>
+
     </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <h2>Court Judgment Details</h2>
-      <p style="color:var(--ink-soft);font-size:16px;margin-bottom:18px">On <strong>April 15, 2025</strong>, the Magistrate's Court in Kuala Lumpur issued a summary judgment (Civil Suit No. <strong>WA-A72NCC-40521-09/2024</strong>) in favor of Palace and Stable PLT against AT Connection Sdn Bhd and 183 Leisure Resort Sdn Bhd. The court ordered the following:</p>
-      <div class="judgment">
-        <ol>
-          <li>AT Connection Sdn Bhd and 183 Leisure Resort Sdn Bhd are <strong>jointly liable</strong> to pay <span class="amount">RM 6,264</span>.</li>
-          <li>AT Connection Sdn Bhd is <strong>solely liable</strong> to pay <span class="amount">RM 35,500</span>.</li>
-          <li>Interest at a rate of <strong>5% per annum</strong> on the amounts of RM 6,264 and RM 35,500, as per Section 11 of the Civil Law Act 1956, from the date the debts were incurred.</li>
-          <li>Costs of <strong>RM 2,500</strong> to be paid by the defendants.</li>
-        </ol>
-        <p style="color:var(--ink-soft);font-size:15px;margin:0">The judgment was issued by Magistrate Muhamad Taufik bin Saberi through the e-Review platform, following an application filed on November 10, 2024.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <h2>Call to Action</h2>
-      <div class="callout">
-        <p>Palace and Stable PLT urges AT Connection Sdn Bhd and its owner, Addison Tan Tee Kung, to settle the outstanding debt of <strong>RM 41,764</strong> with interest and legal costs immediately to avoid further legal action.</p>
-        <p>We also caution other businesses to exercise due diligence when dealing with AT Connection Sdn Bhd or Homebrickz due to their history of delayed payments, non-compliance with court orders, and attempts to evade responsibility through actions such as billing under 183 Leisure Resort Sdn Bhd.</p>
-        <p>For inquiries or further information, please contact Palace and Stable PLT through our legal representative, Raqib Osman, at <a href="mailto:lawyer@raqibosman.com.my">lawyer@raqibosman.com.my</a>.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <h2>Attachments</h2>
-      <ul class="attachments">
-        <li><a href="../assets/files/AT-Connection-SOC.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span>Statement of Claim<small>AT-Connection-SOC.pdf</small></span></a></li>
-        <li><a href="../assets/files/AT-Connection-AIS.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span>Affidavit in Support<small>AT-Connection-AIS.pdf</small></span></a></li>
-        <li><a href="../assets/files/AT-Connection-Writ.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span>Writ<small>AT-Connection-Writ.pdf</small></span></a></li>
-        <li><a href="../assets/files/AT-Connection-Summary-Judgement.pdf" target="_blank" rel="noopener"><span class="pdf-ic">PDF</span><span>Summary Judgement<small>AT-Connection-Summary-Judgement.pdf</small></span></a></li>
-      </ul>
-    </div>
-  </section>
-
+  </div>
 </div>
 
 <footer>
@@ -147,5 +327,34 @@ footer a:hover{color:var(--gold)}
   </div>
 </footer>
 
+<script>
+(function(){
+  // Language toggle
+  var root = document.documentElement;
+  var btnEn = document.getElementById('btnEn'), btnZh = document.getElementById('btnZh');
+  function setLang(zh){
+    root.classList.toggle('zh', zh);
+    root.setAttribute('lang', zh ? 'zh-CN' : 'en');
+    btnEn.classList.toggle('on', !zh);
+    btnZh.classList.toggle('on', zh);
+    try { localStorage.setItem('ps-notice-lang', zh ? 'zh' : 'en'); } catch(e){}
+    document.title = zh
+      ? '公开公告：AT Connection Sdn Bhd（Homebrickz）拖欠债务 - Palace & Stable'
+      : 'Public Notice: Outstanding Debt by AT Connection Sdn Bhd (Homebrickz) - Palace & Stable';
+  }
+  btnEn.addEventListener('click', function(){ setLang(false); });
+  btnZh.addEventListener('click', function(){ setLang(true); });
+  try { if (localStorage.getItem('ps-notice-lang') === 'zh') setLang(true); } catch(e){}
+
+  // Live counters from judgment date (April 15, 2025)
+  var jd = new Date(2025, 3, 15);
+  var now = new Date();
+  var days = Math.max(0, Math.floor((now - jd) / 86400000));
+  var interest = days * (41764 * 0.05 / 365);
+  document.getElementById('daysSince').textContent = days.toLocaleString();
+  document.getElementById('daysInline').textContent = days.toLocaleString();
+  document.getElementById('interestEst').textContent = '~RM ' + interest.toLocaleString(undefined, {maximumFractionDigits: 0});
+})();
+</script>
 </body>
 </html>
